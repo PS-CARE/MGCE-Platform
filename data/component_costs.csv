@@ -1,0 +1,18 @@
+Component,Category,Unit_Cost,Unit,Installation_Cost_Per_Unit,Lifespan_Years,Efficiency_Percent,Notes
+Solar PV Module,Generation,0.35,$/W,0.15,25,21,Tier-1 monocrystalline
+Solar Inverter (String),Generation,0.08,$/W,0.02,15,98,Grid-following
+Solar Inverter (Central),Generation,0.05,$/W,0.02,15,98,For systems >500kW
+Battery Cell (LFP),Storage,150,$/kWh,20,15,95,Lithium Iron Phosphate
+Battery Inverter,Storage,80,$/kW,15,15,97,Bidirectional
+Battery BMS,Storage,25,$/kWh,5,15,99,Battery Management System
+Diesel Generator,Generation,400,$/kW,100,20,35,Standby rated
+Natural Gas Generator,Generation,600,$/kW,150,20,38,Prime rated
+Transformer (Pad-mount),BOS,30,$/kVA,10,30,99,Oil-filled
+Switchgear (480V),BOS,15000,$/unit,3000,30,100,Main breaker panel
+ATS (Automatic Transfer),BOS,300,$/A,50,25,100,Transfer switch
+Protection Relay,BOS,2500,$/unit,500,20,100,Digital multifunction
+Metering Equipment,BOS,3000,$/unit,500,20,100,Revenue grade
+Cabling (600V),BOS,5,$/ft,3,30,99,Per conductor
+Conduit (PVC),BOS,2,$/ft,2,30,100,Schedule 40
+Racking (Ground Mount),BOS,0.10,$/W,0.05,25,100,Fixed tilt
+Racking (Rooftop),BOS,0.08,$/W,0.04,25,100,Ballasted

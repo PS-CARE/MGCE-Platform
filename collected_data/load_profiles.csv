@@ -1,0 +1,320 @@
+Profile_Type,Scenario,Location,Month,Month_Number,Energy_Consumption_kWh,Peak_Demand_kW,Average_Demand_kW,Load_Factor,Days_in_Month,Data_Source,Weather_Station,Climate_Zone,Building_Type,Building_SqFt,EUI_kWh_per_sqft,Hour,Time,Period,Day_Type
+Residential,BASE,Baton Rouge,January,1.0,1769.9,7.32,2.38,0.325,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,February,2.0,1452.0,6.56,2.16,0.329,28.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,March,3.0,1017.3,3.62,1.37,0.378,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,April,4.0,917.2,2.45,1.27,0.521,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,May,5.0,1133.7,2.91,1.52,0.524,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,June,6.0,1230.5,3.59,1.71,0.476,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,July,7.0,1384.2,3.49,1.86,0.533,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,August,8.0,1309.6,3.83,1.76,0.46,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,September,9.0,1237.6,4.34,1.72,0.396,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,October,10.0,1070.4,3.04,1.44,0.473,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,November,11.0,904.5,2.85,1.26,0.441,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,December,12.0,1509.4,6.24,2.03,0.325,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,BASE,Baton Rouge,ANNUAL,0.0,14936.0,7.32,1.71,0.233,365.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,January,1.0,3558.5,10.96,4.78,0.437,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,February,2.0,2960.1,10.84,4.4,0.406,28.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,March,3.0,2032.7,8.06,2.73,0.339,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,April,4.0,1443.1,4.38,2.0,0.458,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,May,5.0,1925.6,5.11,2.59,0.507,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,June,6.0,2125.3,6.32,2.95,0.467,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,July,7.0,2383.7,5.98,3.2,0.536,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,August,8.0,2268.6,6.66,3.05,0.458,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,September,9.0,2071.1,7.43,2.88,0.387,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,October,10.0,1641.6,5.26,2.21,0.42,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,November,11.0,1231.0,4.73,1.71,0.361,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,December,12.0,3424.3,10.44,4.6,0.441,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,HIGH,Baton Rouge,ANNUAL,0.0,27066.0,10.96,3.09,0.282,365.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,January,1.0,683.0,2.96,0.92,0.31,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,February,2.0,573.8,2.74,0.85,0.312,28.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,March,3.0,513.6,1.3,0.69,0.53,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,April,4.0,502.4,1.25,0.7,0.556,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,May,5.0,592.6,1.44,0.8,0.554,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,June,6.0,620.1,1.72,0.86,0.499,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,July,7.0,687.8,1.68,0.92,0.55,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,August,8.0,655.0,1.83,0.88,0.481,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,September,9.0,626.5,2.05,0.87,0.425,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,October,10.0,567.9,1.46,0.76,0.522,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,November,11.0,497.6,1.39,0.69,0.499,30.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,December,12.0,573.1,2.43,0.77,0.317,31.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Residential,LOW,Baton Rouge,ANNUAL,0.0,7093.0,2.96,0.81,0.274,365.0,"EnergyPlus Residential Prototype, Louisiana TMY3",USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),,,,,,,
+Commercial,,Baton Rouge,January,1.0,5406.0,15.0,7.3,0.483,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,0.98,,,,
+Commercial,,Baton Rouge,February,2.0,4803.0,14.5,7.1,0.494,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,0.87,,,,
+Commercial,,Baton Rouge,March,3.0,5815.0,16.3,7.8,0.478,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.06,,,,
+Commercial,,Baton Rouge,April,4.0,5759.0,17.7,8.0,0.453,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.05,,,,
+Commercial,,Baton Rouge,May,5.0,6841.0,20.2,9.2,0.455,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.24,,,,
+Commercial,,Baton Rouge,June,6.0,7268.0,21.6,10.1,0.467,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.32,,,,
+Commercial,,Baton Rouge,July,7.0,7435.0,21.1,10.0,0.473,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.35,,,,
+Commercial,,Baton Rouge,August,8.0,7823.0,21.5,10.5,0.488,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.42,,,,
+Commercial,,Baton Rouge,September,9.0,6806.0,21.8,9.5,0.433,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.24,,,,
+Commercial,,Baton Rouge,October,10.0,6150.0,19.2,8.3,0.431,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,1.12,,,,
+Commercial,,Baton Rouge,November,11.0,5432.0,16.7,7.5,0.452,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,0.99,,,,
+Commercial,,Baton Rouge,December,12.0,5205.0,14.0,7.0,0.498,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,0.95,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,74745.0,21.8,8.5,0.391,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Office,5500.0,13.59,,,,
+Commercial,,Baton Rouge,January,1.0,65874.0,270.4,88.5,0.327,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.23,,,,
+Commercial,,Baton Rouge,February,2.0,56735.0,255.1,84.4,0.331,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.06,,,,
+Commercial,,Baton Rouge,March,3.0,61881.0,166.2,83.2,0.5,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.15,,,,
+Commercial,,Baton Rouge,April,4.0,58648.0,182.4,81.5,0.447,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.09,,,,
+Commercial,,Baton Rouge,May,5.0,67036.0,213.8,90.1,0.422,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.25,,,,
+Commercial,,Baton Rouge,June,6.0,70562.0,235.8,98.0,0.416,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.32,,,,
+Commercial,,Baton Rouge,July,7.0,71795.0,224.8,96.5,0.429,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.34,,,,
+Commercial,,Baton Rouge,August,8.0,75727.0,235.7,101.8,0.432,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.41,,,,
+Commercial,,Baton Rouge,September,9.0,66390.0,244.1,92.2,0.378,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.24,,,,
+Commercial,,Baton Rouge,October,10.0,62302.0,202.2,83.7,0.414,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.16,,,,
+Commercial,,Baton Rouge,November,11.0,58606.0,221.7,81.4,0.367,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.09,,,,
+Commercial,,Baton Rouge,December,12.0,62658.0,204.4,84.2,0.412,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,1.17,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,778212.0,270.4,88.8,0.329,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Medium Office,53600.0,14.52,,,,
+Commercial,,Baton Rouge,January,1.0,553368.0,1675.0,743.8,0.444,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.11,,,,
+Commercial,,Baton Rouge,February,2.0,518068.0,1679.9,770.9,0.459,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.04,,,,
+Commercial,,Baton Rouge,March,3.0,644151.0,1673.6,865.8,0.517,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.29,,,,
+Commercial,,Baton Rouge,April,4.0,616995.0,1670.0,856.9,0.513,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.24,,,,
+Commercial,,Baton Rouge,May,5.0,687266.0,1665.7,923.7,0.555,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.38,,,,
+Commercial,,Baton Rouge,June,6.0,686673.0,1901.2,953.7,0.502,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.38,,,,
+Commercial,,Baton Rouge,July,7.0,700745.0,1734.0,941.9,0.543,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.41,,,,
+Commercial,,Baton Rouge,August,8.0,729390.0,1771.7,980.4,0.553,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.46,,,,
+Commercial,,Baton Rouge,September,9.0,667933.0,1839.8,927.7,0.504,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.34,,,,
+Commercial,,Baton Rouge,October,10.0,635039.0,1658.7,853.5,0.515,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.27,,,,
+Commercial,,Baton Rouge,November,11.0,586823.0,1667.9,815.0,0.489,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.18,,,,
+Commercial,,Baton Rouge,December,12.0,529977.0,1680.7,712.3,0.424,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,1.06,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,7556429.0,1901.2,862.6,0.454,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Office,498600.0,15.16,,,,
+Commercial,,Baton Rouge,January,1.0,26958.0,75.0,36.2,0.483,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.09,,,,
+Commercial,,Baton Rouge,February,2.0,24056.0,70.3,35.8,0.509,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,0.97,,,,
+Commercial,,Baton Rouge,March,3.0,28807.0,83.1,38.7,0.466,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.17,,,,
+Commercial,,Baton Rouge,April,4.0,30182.0,93.5,41.9,0.448,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.22,,,,
+Commercial,,Baton Rouge,May,5.0,36363.0,113.5,48.9,0.431,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.47,,,,
+Commercial,,Baton Rouge,June,6.0,38717.0,129.0,53.8,0.417,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.57,,,,
+Commercial,,Baton Rouge,July,7.0,41498.0,121.5,55.8,0.459,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.68,,,,
+Commercial,,Baton Rouge,August,8.0,41744.0,126.0,56.1,0.445,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.69,,,,
+Commercial,,Baton Rouge,September,9.0,36947.0,129.2,51.3,0.397,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.5,,,,
+Commercial,,Baton Rouge,October,10.0,32172.0,106.4,43.2,0.406,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.3,,,,
+Commercial,,Baton Rouge,November,11.0,26896.0,86.5,37.4,0.432,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.09,,,,
+Commercial,,Baton Rouge,December,12.0,26604.0,74.9,35.8,0.478,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,1.08,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,390944.0,129.2,44.6,0.345,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Standalone Retail,24690.0,15.83,,,,
+Commercial,,Baton Rouge,January,1.0,23972.0,66.7,32.2,0.483,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.07,,,,
+Commercial,,Baton Rouge,February,2.0,21354.0,61.2,31.8,0.519,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,0.95,,,,
+Commercial,,Baton Rouge,March,3.0,25472.0,72.7,34.2,0.471,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.13,,,,
+Commercial,,Baton Rouge,April,4.0,26357.0,81.4,36.6,0.45,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.17,,,,
+Commercial,,Baton Rouge,May,5.0,31219.0,96.5,42.0,0.435,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.39,,,,
+Commercial,,Baton Rouge,June,6.0,33003.0,108.0,45.8,0.424,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.47,,,,
+Commercial,,Baton Rouge,July,7.0,35208.0,102.8,47.3,0.46,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.56,,,,
+Commercial,,Baton Rouge,August,8.0,35579.0,106.5,47.8,0.449,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.58,,,,
+Commercial,,Baton Rouge,September,9.0,32030.0,109.9,44.5,0.405,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.42,,,,
+Commercial,,Baton Rouge,October,10.0,28497.0,93.0,38.3,0.412,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.27,,,,
+Commercial,,Baton Rouge,November,11.0,24043.0,78.4,33.4,0.426,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.07,,,,
+Commercial,,Baton Rouge,December,12.0,23770.0,68.3,31.9,0.468,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,1.06,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,340505.0,109.9,38.9,0.354,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Strip Mall,22500.0,15.13,,,,
+Commercial,,Baton Rouge,January,1.0,136881.0,314.8,184.0,0.584,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.04,,,,
+Commercial,,Baton Rouge,February,2.0,122574.0,307.9,182.4,0.592,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,2.72,,,,
+Commercial,,Baton Rouge,March,3.0,150997.0,320.8,203.0,0.633,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.36,,,,
+Commercial,,Baton Rouge,April,4.0,152718.0,337.0,212.1,0.629,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.39,,,,
+Commercial,,Baton Rouge,May,5.0,173973.0,370.9,233.8,0.63,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.87,,,,
+Commercial,,Baton Rouge,June,6.0,175728.0,408.5,244.1,0.598,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.91,,,,
+Commercial,,Baton Rouge,July,7.0,185947.0,386.3,249.9,0.647,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,4.13,,,,
+Commercial,,Baton Rouge,August,8.0,186015.0,392.8,250.0,0.637,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,4.13,,,,
+Commercial,,Baton Rouge,September,9.0,170393.0,400.2,236.7,0.591,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.79,,,,
+Commercial,,Baton Rouge,October,10.0,159302.0,356.5,214.1,0.601,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.54,,,,
+Commercial,,Baton Rouge,November,11.0,142237.0,325.5,197.6,0.607,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,3.16,,,,
+Commercial,,Baton Rouge,December,12.0,133389.0,306.9,179.3,0.584,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,2.96,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,1890154.0,408.5,215.8,0.528,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Supermarket,45000.0,42.0,,,,
+Commercial,,Baton Rouge,January,1.0,74738.0,251.7,100.5,0.399,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.01,,,,
+Commercial,,Baton Rouge,February,2.0,66547.0,236.1,99.0,0.42,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,0.9,,,,
+Commercial,,Baton Rouge,March,3.0,83701.0,279.9,112.5,0.402,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.13,,,,
+Commercial,,Baton Rouge,April,4.0,85957.0,318.5,119.4,0.375,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.16,,,,
+Commercial,,Baton Rouge,May,5.0,105102.0,357.8,141.3,0.395,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.42,,,,
+Commercial,,Baton Rouge,June,6.0,113814.0,385.6,158.1,0.41,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.54,,,,
+Commercial,,Baton Rouge,July,7.0,81342.0,288.8,109.3,0.379,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.1,,,,
+Commercial,,Baton Rouge,August,8.0,83777.0,300.1,112.6,0.375,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.13,,,,
+Commercial,,Baton Rouge,September,9.0,100097.0,379.2,139.0,0.367,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.35,,,,
+Commercial,,Baton Rouge,October,10.0,91028.0,345.0,122.3,0.355,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.23,,,,
+Commercial,,Baton Rouge,November,11.0,78131.0,300.9,108.5,0.361,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,1.06,,,,
+Commercial,,Baton Rouge,December,12.0,69951.0,227.2,94.0,0.414,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,0.95,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,1034185.0,385.6,118.1,0.306,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Primary School,73960.0,13.98,,,,
+Commercial,,Baton Rouge,January,1.0,262547.0,1161.7,352.9,0.304,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.24,,,,
+Commercial,,Baton Rouge,February,2.0,225264.0,1176.1,335.2,0.285,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.07,,,,
+Commercial,,Baton Rouge,March,3.0,341796.0,1230.8,459.4,0.373,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.62,,,,
+Commercial,,Baton Rouge,April,4.0,375048.0,1293.0,520.9,0.403,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.78,,,,
+Commercial,,Baton Rouge,May,5.0,490383.0,1319.4,659.1,0.5,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,2.33,,,,
+Commercial,,Baton Rouge,June,6.0,520512.0,1362.3,722.9,0.531,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,2.47,,,,
+Commercial,,Baton Rouge,July,7.0,457570.0,1177.1,615.0,0.522,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,2.17,,,,
+Commercial,,Baton Rouge,August,8.0,470072.0,1182.3,631.8,0.534,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,2.23,,,,
+Commercial,,Baton Rouge,September,9.0,467806.0,1387.2,649.7,0.468,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,2.22,,,,
+Commercial,,Baton Rouge,October,10.0,376907.0,1300.2,506.6,0.39,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.79,,,,
+Commercial,,Baton Rouge,November,11.0,295009.0,1239.4,409.7,0.331,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,1.4,,,,
+Commercial,,Baton Rouge,December,12.0,204902.0,1125.9,275.4,0.245,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,0.97,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,4487816.0,1387.2,512.3,0.369,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Secondary School,210900.0,21.28,,,,
+Commercial,,Baton Rouge,January,1.0,879253.0,1590.4,1181.8,0.743,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.64,,,,
+Commercial,,Baton Rouge,February,2.0,807773.0,1586.6,1202.0,0.758,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.35,,,,
+Commercial,,Baton Rouge,March,3.0,915403.0,1584.7,1230.4,0.776,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.79,,,,
+Commercial,,Baton Rouge,April,4.0,865071.0,1539.0,1201.5,0.781,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.58,,,,
+Commercial,,Baton Rouge,May,5.0,874443.0,1527.1,1175.3,0.77,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.62,,,,
+Commercial,,Baton Rouge,June,6.0,850638.0,1582.2,1181.4,0.747,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.52,,,,
+Commercial,,Baton Rouge,July,7.0,864462.0,1553.2,1161.9,0.748,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.58,,,,
+Commercial,,Baton Rouge,August,8.0,879726.0,1557.3,1182.4,0.759,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.65,,,,
+Commercial,,Baton Rouge,September,9.0,852470.0,1547.7,1184.0,0.765,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.53,,,,
+Commercial,,Baton Rouge,October,10.0,896692.0,1576.7,1205.2,0.764,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.72,,,,
+Commercial,,Baton Rouge,November,11.0,876921.0,1573.5,1217.9,0.774,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.63,,,,
+Commercial,,Baton Rouge,December,12.0,896349.0,1594.0,1204.8,0.756,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,3.71,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,10459200.0,1594.0,1194.0,0.749,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Hospital,241350.0,43.34,,,,
+Commercial,,Baton Rouge,January,1.0,116450.0,278.4,156.5,0.562,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.84,,,,
+Commercial,,Baton Rouge,February,2.0,102413.0,272.0,152.4,0.56,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.5,,,,
+Commercial,,Baton Rouge,March,3.0,118441.0,283.6,159.2,0.561,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.89,,,,
+Commercial,,Baton Rouge,April,4.0,115996.0,292.2,161.1,0.551,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.83,,,,
+Commercial,,Baton Rouge,May,5.0,130444.0,316.0,175.3,0.555,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,3.19,,,,
+Commercial,,Baton Rouge,June,6.0,132792.0,336.3,184.4,0.548,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,3.24,,,,
+Commercial,,Baton Rouge,July,7.0,135160.0,322.9,181.7,0.563,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,3.3,,,,
+Commercial,,Baton Rouge,August,8.0,140101.0,330.5,188.3,0.57,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,3.42,,,,
+Commercial,,Baton Rouge,September,9.0,126280.0,340.6,175.4,0.515,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,3.08,,,,
+Commercial,,Baton Rouge,October,10.0,119719.0,307.3,160.9,0.524,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.92,,,,
+Commercial,,Baton Rouge,November,11.0,110577.0,287.5,153.6,0.534,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.7,,,,
+Commercial,,Baton Rouge,December,12.0,110856.0,265.8,149.0,0.561,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,2.71,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,1459228.0,340.6,166.6,0.489,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Outpatient Clinic,40950.0,35.63,,,,
+Commercial,,Baton Rouge,January,1.0,47458.0,112.2,63.8,0.569,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.1,,,,
+Commercial,,Baton Rouge,February,2.0,42149.0,110.3,62.7,0.569,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,0.98,,,,
+Commercial,,Baton Rouge,March,3.0,51059.0,115.7,68.6,0.593,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.18,,,,
+Commercial,,Baton Rouge,April,4.0,52572.0,120.0,73.0,0.608,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.22,,,,
+Commercial,,Baton Rouge,May,5.0,60761.0,136.9,81.7,0.597,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.41,,,,
+Commercial,,Baton Rouge,June,6.0,61888.0,143.3,86.0,0.6,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.43,,,,
+Commercial,,Baton Rouge,July,7.0,67163.0,142.7,90.3,0.632,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.55,,,,
+Commercial,,Baton Rouge,August,8.0,66129.0,146.6,88.9,0.606,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.53,,,,
+Commercial,,Baton Rouge,September,9.0,60963.0,146.2,84.7,0.579,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.41,,,,
+Commercial,,Baton Rouge,October,10.0,55576.0,125.7,74.7,0.594,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.29,,,,
+Commercial,,Baton Rouge,November,11.0,48433.0,119.1,67.3,0.565,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.12,,,,
+Commercial,,Baton Rouge,December,12.0,46180.0,110.6,62.1,0.561,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,1.07,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,660331.0,146.6,75.4,0.514,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Small Hotel,43200.0,15.29,,,,
+Commercial,,Baton Rouge,January,1.0,197325.0,466.4,265.2,0.569,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.62,,,,
+Commercial,,Baton Rouge,February,2.0,181600.0,466.1,270.2,0.58,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.49,,,,
+Commercial,,Baton Rouge,March,3.0,222738.0,466.3,299.4,0.642,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.82,,,,
+Commercial,,Baton Rouge,April,4.0,221369.0,466.2,307.5,0.659,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.81,,,,
+Commercial,,Baton Rouge,May,5.0,236305.0,466.0,317.6,0.682,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.94,,,,
+Commercial,,Baton Rouge,June,6.0,232195.0,471.6,322.5,0.684,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.9,,,,
+Commercial,,Baton Rouge,July,7.0,239553.0,450.9,322.0,0.714,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.96,,,,
+Commercial,,Baton Rouge,August,8.0,240360.0,470.2,323.1,0.687,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.97,,,,
+Commercial,,Baton Rouge,September,9.0,229986.0,464.4,319.4,0.688,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.88,,,,
+Commercial,,Baton Rouge,October,10.0,227096.0,464.3,305.2,0.657,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.86,,,,
+Commercial,,Baton Rouge,November,11.0,211840.0,464.1,294.2,0.634,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.73,,,,
+Commercial,,Baton Rouge,December,12.0,197095.0,467.5,264.9,0.567,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,1.61,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,2637460.0,471.6,301.1,0.638,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Large Hotel,122100.0,21.6,,,,
+Commercial,,Baton Rouge,January,1.0,22373.0,67.6,30.1,0.445,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.43,,,,
+Commercial,,Baton Rouge,February,2.0,19994.0,67.6,29.8,0.44,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.38,,,,
+Commercial,,Baton Rouge,March,3.0,22331.0,67.8,30.0,0.442,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.43,,,,
+Commercial,,Baton Rouge,April,4.0,20128.0,73.9,28.0,0.378,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.39,,,,
+Commercial,,Baton Rouge,May,5.0,22327.0,89.0,30.0,0.337,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.43,,,,
+Commercial,,Baton Rouge,June,6.0,24181.0,103.9,33.6,0.323,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.46,,,,
+Commercial,,Baton Rouge,July,7.0,25415.0,99.8,34.2,0.342,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.49,,,,
+Commercial,,Baton Rouge,August,8.0,27734.0,104.9,37.3,0.355,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.53,,,,
+Commercial,,Baton Rouge,September,9.0,23254.0,106.4,32.3,0.304,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.45,,,,
+Commercial,,Baton Rouge,October,10.0,21622.0,83.0,29.1,0.35,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.42,,,,
+Commercial,,Baton Rouge,November,11.0,21202.0,69.0,29.4,0.426,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.41,,,,
+Commercial,,Baton Rouge,December,12.0,21908.0,69.0,29.4,0.426,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,0.42,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,272468.0,106.4,31.1,0.292,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Warehouse,52050.0,5.23,,,,
+Commercial,,Baton Rouge,January,1.0,15935.0,31.1,21.4,0.689,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.37,,,,
+Commercial,,Baton Rouge,February,2.0,14276.0,30.6,21.2,0.695,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,5.71,,,,
+Commercial,,Baton Rouge,March,3.0,16329.0,32.5,21.9,0.675,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.53,,,,
+Commercial,,Baton Rouge,April,4.0,16415.0,35.1,22.8,0.65,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.57,,,,
+Commercial,,Baton Rouge,May,5.0,18433.0,38.6,24.8,0.642,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,7.37,,,,
+Commercial,,Baton Rouge,June,6.0,18812.0,41.1,26.1,0.635,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,7.52,,,,
+Commercial,,Baton Rouge,July,7.0,20376.0,40.7,27.4,0.673,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,8.15,,,,
+Commercial,,Baton Rouge,August,8.0,20070.0,40.8,27.0,0.661,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,8.03,,,,
+Commercial,,Baton Rouge,September,9.0,18689.0,41.8,26.0,0.621,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,7.48,,,,
+Commercial,,Baton Rouge,October,10.0,17345.0,37.6,23.3,0.619,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.94,,,,
+Commercial,,Baton Rouge,November,11.0,15751.0,34.1,21.9,0.642,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.3,,,,
+Commercial,,Baton Rouge,December,12.0,15837.0,31.2,21.3,0.683,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,6.33,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,208267.0,41.8,23.8,0.569,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Quick Service Restaurant,2500.0,83.31,,,,
+Commercial,,Baton Rouge,January,1.0,25931.0,55.8,34.9,0.625,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,4.71,,,,
+Commercial,,Baton Rouge,February,2.0,23145.0,54.2,34.4,0.636,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,4.21,,,,
+Commercial,,Baton Rouge,March,3.0,26950.0,57.3,36.2,0.632,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,4.9,,,,
+Commercial,,Baton Rouge,April,4.0,27581.0,63.2,38.3,0.606,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,5.01,,,,
+Commercial,,Baton Rouge,May,5.0,31886.0,69.7,42.9,0.615,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,5.8,,,,
+Commercial,,Baton Rouge,June,6.0,32910.0,72.2,45.7,0.633,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,5.98,,,,
+Commercial,,Baton Rouge,July,7.0,36308.0,71.3,48.8,0.684,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,6.6,,,,
+Commercial,,Baton Rouge,August,8.0,35548.0,72.2,47.8,0.662,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,6.46,,,,
+Commercial,,Baton Rouge,September,9.0,32755.0,73.5,45.5,0.619,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,5.96,,,,
+Commercial,,Baton Rouge,October,10.0,29331.0,69.0,39.4,0.571,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,5.33,,,,
+Commercial,,Baton Rouge,November,11.0,25886.0,62.5,36.0,0.576,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,4.71,,,,
+Commercial,,Baton Rouge,December,12.0,25680.0,55.4,34.5,0.623,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,4.67,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,353910.0,73.5,40.4,0.549,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Full Service Restaurant,5500.0,64.35,,,,
+Commercial,,Baton Rouge,January,1.0,18394.0,47.6,24.7,0.52,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.55,,,,
+Commercial,,Baton Rouge,February,2.0,15988.0,45.7,23.8,0.52,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.47,,,,
+Commercial,,Baton Rouge,March,3.0,19712.0,53.5,26.5,0.495,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.58,,,,
+Commercial,,Baton Rouge,April,4.0,21168.0,57.2,29.4,0.514,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.63,,,,
+Commercial,,Baton Rouge,May,5.0,26718.0,68.2,35.9,0.526,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.79,,,,
+Commercial,,Baton Rouge,June,6.0,28427.0,71.4,39.5,0.553,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.84,,,,
+Commercial,,Baton Rouge,July,7.0,31570.0,71.4,42.4,0.594,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.94,,,,
+Commercial,,Baton Rouge,August,8.0,30903.0,72.8,41.5,0.571,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.92,,,,
+Commercial,,Baton Rouge,September,9.0,27241.0,73.6,37.8,0.514,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.81,,,,
+Commercial,,Baton Rouge,October,10.0,22730.0,63.5,30.6,0.481,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.67,,,,
+Commercial,,Baton Rouge,November,11.0,18348.0,55.8,25.5,0.456,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.54,,,,
+Commercial,,Baton Rouge,December,12.0,17727.0,41.4,23.8,0.576,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,0.53,,,,
+Commercial,,Baton Rouge,ANNUAL,0.0,278925.0,73.6,31.8,0.432,,EnergyPlus DOE Commercial Reference Building,USA_LA_Baton.Rouge-Ryan.AP.722317_TMY3,2A (Hot-Humid),Midrise Apartment,33700.0,8.28,,,,
+Hourly,,Baton Rouge,July,,,,40.2,0.245,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,0.0,00:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,40.3,0.245,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,1.0,01:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,38.8,0.236,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,2.0,02:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,38.0,0.231,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,3.0,03:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,38.3,0.233,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,4.0,04:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,40.6,0.247,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,5.0,05:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,60.6,0.369,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,6.0,06:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,78.5,0.478,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,7.0,07:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,145.2,0.884,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,8.0,08:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,145.3,0.884,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,9.0,09:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,150.3,0.915,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,10.0,10:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,155.7,0.948,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,11.0,11:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,155.0,0.944,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,12.0,12:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,160.3,0.976,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,13.0,13:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,161.1,0.98,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,14.0,14:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,161.9,0.986,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,15.0,15:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,164.3,1.0,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,16.0,16:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,149.9,0.913,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,17.0,17:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,108.6,0.661,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,18.0,18:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,99.6,0.606,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,19.0,19:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,94.1,0.573,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,20.0,20:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,89.9,0.547,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,21.0,21:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,41.0,0.25,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,22.0,22:00,Night (baseload),Weekday
+Hourly,,Baton Rouge,July,,,,41.4,0.252,,EnergyPlus DOE Commercial Reference Building,,,Medium Office,,,23.0,23:00,Night (baseload),Weekday
+Hourly,,Baton Rouge,July,,,,924.4,0.664,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,0.0,00:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,923.4,0.663,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,1.0,01:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,922.3,0.662,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,2.0,02:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,921.4,0.662,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,3.0,03:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,989.6,0.711,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,4.0,04:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,1000.2,0.718,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,5.0,05:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,1178.8,0.847,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,6.0,06:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,1275.8,0.916,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,7.0,07:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,1335.6,0.959,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,8.0,08:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1365.0,0.98,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,9.0,09:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1379.7,0.991,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,10.0,10:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1386.7,0.996,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,11.0,11:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1361.2,0.978,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,12.0,12:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,1386.9,0.996,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,13.0,13:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,1390.0,0.998,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,14.0,14:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1392.3,1.0,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,15.0,15:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1391.4,0.999,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,16.0,16:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1379.6,0.991,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,17.0,17:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,1122.1,0.806,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,18.0,18:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,1117.1,0.802,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,19.0,19:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,1024.3,0.736,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,20.0,20:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,994.5,0.714,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,21.0,21:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,940.0,0.675,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,22.0,22:00,Night (baseload),Weekday
+Hourly,,Baton Rouge,July,,,,938.5,0.674,,EnergyPlus DOE Commercial Reference Building,,,Hospital,,,23.0,23:00,Night (baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,0.0,00:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,1.0,01:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,2.0,02:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,3.0,03:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,4.0,04:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,5.0,05:00,Off-hours (minimal baseload),Weekday
+Hourly,,Baton Rouge,July,,,,29.0,0.273,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,6.0,06:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,33.0,0.311,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,7.0,07:00,Morning ramp-up (HVAC pre-cooling),Weekday
+Hourly,,Baton Rouge,July,,,,59.1,0.557,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,8.0,08:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,78.9,0.744,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,9.0,09:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,87.7,0.827,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,10.0,10:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,92.9,0.877,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,11.0,11:00,Morning business hours,Weekday
+Hourly,,Baton Rouge,July,,,,99.8,0.942,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,12.0,12:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,102.8,0.97,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,13.0,13:00,Mid-day peak,Weekday
+Hourly,,Baton Rouge,July,,,,104.7,0.988,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,14.0,14:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,106.0,1.0,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,15.0,15:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,105.3,0.994,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,16.0,16:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,100.3,0.946,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,17.0,17:00,Afternoon business hours,Weekday
+Hourly,,Baton Rouge,July,,,,84.4,0.796,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,18.0,18:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,64.5,0.609,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,19.0,19:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,66.0,0.623,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,20.0,20:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,18.3,0.173,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,21.0,21:00,Evening ramp-down,Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,22.0,22:00,Night (baseload),Weekday
+Hourly,,Baton Rouge,July,,,,12.4,0.117,,EnergyPlus DOE Commercial Reference Building,,,Standalone Retail,,,23.0,23:00,Night (baseload),Weekday

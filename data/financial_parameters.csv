@@ -1,0 +1,20 @@
+Parameter,Value,Unit,Description
+ITC_Rate,30,%,Federal Investment Tax Credit
+ITC_Bonus_Domestic,10,%,Domestic content bonus
+ITC_Bonus_Energy_Community,10,%,Energy community bonus
+ITC_Bonus_Low_Income,10,%,Low-income community bonus
+PTC_Rate,0.0275,$/kWh,Production Tax Credit (if applicable)
+Discount_Rate,8,%,For NPV calculations
+Inflation_Rate,2.5,%,Annual inflation assumption
+Electricity_Escalation,3,%,Annual utility rate increase
+Project_Lifetime,25,years,Analysis period
+Debt_Ratio,70,%,Debt financing percentage
+Interest_Rate,6,%,Loan interest rate
+Loan_Term,15,years,Loan duration
+MACRS_Schedule,5,years,Depreciation schedule for solar/storage
+O&M_Solar,15,$/kW-year,Solar O&M cost
+O&M_Battery,10,$/kWh-year,Battery O&M cost
+O&M_Generator,25,$/kW-year,Generator O&M cost
+Fuel_Cost_Diesel,3.50,$/gallon,Diesel fuel price
+Fuel_Cost_NatGas,1.20,$/therm,Natural gas price
+Insurance_Rate,0.5,%,Percent of capital cost per year

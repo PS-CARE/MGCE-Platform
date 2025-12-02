@@ -1,0 +1,19 @@
+Parameter,Value,Unit,Description,Data_Source
+Site_Name,Baton Rouge Facility,,Project identifier,User input
+Latitude,30.4515,degrees,Site latitude (WGS84),User input / GPS
+Longitude,-91.1871,degrees,"Site longitude (negative for West, WGS84)",User input / GPS
+Timezone,America/Chicago,,IANA timezone identifier,IANA timezone database
+Elevation,17,meters,Elevation above sea level,USGS / Google Maps
+Solar_Resource_GHI,4.65,kWh/m²/day,Annual average Global Horizontal Irradiance,NREL NSRDB
+Solar_Resource_DNI,4.37,kWh/m²/day,Annual average Direct Normal Irradiance,NREL NSRDB
+PV_Production_Factor,1.47,kWh/kW/year,Expected annual PV production per kW installed,NREL PVWatts v8
+Available_Ground_Space,50000,sq_ft,Available space for ground-mount solar,User input / Site survey
+Available_Roof_Space,20000,sq_ft,Available rooftop space for solar,User input / Site survey
+Service_Voltage,480,V,Main electrical service voltage,User input / Electrical drawings
+Service_Amperage,2000,A,Main service capacity,User input / Electrical drawings
+Existing_Transformer_kVA,1500,kVA,Existing transformer capacity,User input / Utility records
+Utility_Name,Entergy Louisiana,,Serving electric utility,User input / Utility bill
+Rate_Schedule,LGS,,Current utility rate schedule,Utility bill
+Grid_Connection_Type,Radial,,"Type of grid connection (Radial, Network, or Spot Network)",Utility interconnection agreement
+Interconnection_Voltage,12.47,kV,Distribution system voltage level,Utility interconnection agreement
+Max_Export_Allowed,500,kW,Maximum export to grid allowed by utility (0 = no export),Utility interconnection agreement

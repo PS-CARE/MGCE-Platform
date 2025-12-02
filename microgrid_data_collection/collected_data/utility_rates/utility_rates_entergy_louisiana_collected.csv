@@ -1,0 +1,17 @@
+Utility,Rate_Schedule,Rate_Type,Season,Period,Start_Hour,End_Hour,Cost,Unit,Days_Applicable,Notes,Data_Source,Last_Updated,Reference_URL
+Entergy Louisiana,LGS,Energy,Summer,On-Peak,13,21,0.0876,$/kWh,Monday-Friday,On-peak hours during summer weekdays,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Summer,Off-Peak,0,13,0.0654,$/kWh,Monday-Friday,"Off-peak hours during summer weekdays, before on-peak","Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Summer,Off-Peak,21,24,0.0654,$/kWh,Monday-Friday,"Off-peak hours during summer weekdays, after on-peak","Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Summer,Off-Peak,0,24,0.0598,$/kWh,Saturday-Sunday,Weekend rate during summer,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Winter,On-Peak,6,10,0.0798,$/kWh,Monday-Friday,Morning on-peak hours during winter weekdays,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Winter,Off-Peak,0,6,0.0623,$/kWh,Monday-Friday,"Off-peak hours during winter weekdays, before on-peak","Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Winter,Off-Peak,10,24,0.0623,$/kWh,Monday-Friday,"Off-peak hours during winter weekdays, after on-peak","Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Energy,Winter,Off-Peak,0,24,0.0571,$/kWh,Saturday-Sunday,Weekend rate during winter,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Demand,Summer,On-Peak,13,21,19.85,$/kW,Monday-Friday,Peak demand charge applied to max kW during summer on-peak hours,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Demand,Summer,All-Hours,0,24,7.25,$/kW,All,Non-peak demand charge for summer (max kW outside on-peak),"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Demand,Winter,On-Peak,6,10,16.42,$/kW,Monday-Friday,Peak demand charge applied to max kW during winter on-peak hours,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Demand,Winter,All-Hours,0,24,6.18,$/kW,All,Non-peak demand charge for winter (max kW outside on-peak),"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Fixed,All,Monthly,0,24,125.0,$/month,All,Fixed monthly customer charge,"Entergy LA Tariff LGS, Effective Jan 2025",2025-01-01,
+Entergy Louisiana,LGS,Fuel_Adjustment,All,All,0,24,0.0142,$/kWh,All,"Fuel adjustment clause (FAC), updated quarterly","Entergy LA FAC Filing, Q1 2025",2025-01-01,
+US Average,Commercial Average,Energy,Annual,Average,0,24,0.1217,$/kWh,All,US commercial average electricity price,"EIA Electric Power Monthly, December 2024",2024-12-31,https://www.eia.gov/electricity/monthly/
+Louisiana Average,Commercial Average,Energy,Annual,Average,0,24,0.0947,$/kWh,All,Louisiana commercial average electricity price (below US average),"EIA Electric Power Monthly, December 2024",2024-12-31,https://www.eia.gov/electricity/monthly/

@@ -1,0 +1,13 @@
+{
+  "collection_date": "2025-12-01T02:35:08.060807",
+  "total_parameters": 21,
+  "sources": {
+    "IRS": "Tax credits and depreciation schedules",
+    "Federal Reserve": "Interest rates and economic indicators",
+    "BLS": "Inflation data (Consumer Price Index)",
+    "EIA": "Fuel prices and electricity projections",
+    "NREL": "O&M costs and financial modeling defaults",
+    "DSIRE": "State and utility incentive programs"
+  },
+  "notes": "All parameters reflect current federal programs as of January 2025. IRA provisions effective through 2032 with step-downs beginning 2033. State-level incentives vary and should be added separately."
+}

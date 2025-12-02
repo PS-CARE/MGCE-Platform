@@ -1,0 +1,147 @@
+{
+  "collection_date": "2025-12-01T11:10:18.683424",
+  "sources": {
+    "nrel_atb": "https://atb.nrel.gov/electricity/data",
+    "nrel_solar": "https://www.nrel.gov/docs/fy24osti/88880.pdf",
+    "doe_storage": "https://www.energy.gov/eere/analysis/articles/2023-us-battery-storage-market-trends",
+    "lazard_lcoe": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+    "bnef": "https://about.bnef.com/blog/lithium-ion-battery-pack-prices-hit-record-low-of-139-kwh/"
+  },
+  "data": {
+    "solar_pv": {
+      "module_tier1_mono": {
+        "cost_per_w": 0.45,
+        "installation_per_w": 0.2,
+        "source": "NREL Annual Technology Baseline 2024 v3 Workbook, Utility PV moderate scenario",
+        "notes": "Derived from total system cost $1,551/kW AC, includes modules, racking, labor"
+      },
+      "module_tier1_bifacial": {
+        "cost_per_w": 0.48,
+        "installation_per_w": 0.21,
+        "source": "NREL ATB 2024, adjusted for bifacial technology",
+        "notes": "Bifacial modules, 22-23% efficiency, 10-20% yield gain"
+      },
+      "inverter_string": {
+        "cost_per_w": 0.15,
+        "installation_per_w": 0.02,
+        "source": "NREL ATB 2024, ~10% of total system cost",
+        "notes": "String inverters, 98-99% efficiency, <100kW systems"
+      },
+      "inverter_central": {
+        "cost_per_w": 0.12,
+        "installation_per_w": 0.015,
+        "source": "NREL ATB 2024, large system allocation",
+        "notes": "Central inverters, >500kW systems, 98.5-99% efficiency"
+      }
+    },
+    "battery_storage": {
+      "lfp_cells": {
+        "cost_per_kwh": 291,
+        "installation_per_kwh": 24,
+        "source": "NREL Annual Technology Baseline 2024 v3, Utility Battery 4Hr moderate",
+        "notes": "LFP from 4-hour system ($1,938/kW), 15-20yr life, 95-98% roundtrip efficiency"
+      },
+      "nmc_cells": {
+        "cost_per_kwh": 310,
+        "installation_per_kwh": 24,
+        "source": "NREL ATB 2024, adjusted for NMC chemistry",
+        "notes": "NMC chemistry, higher energy density, 10-15yr life"
+      },
+      "battery_inverter": {
+        "cost_per_kw": 484,
+        "installation_per_kw": 15,
+        "source": "NREL ATB 2024, bidirectional inverter allocation",
+        "notes": "Bidirectional inverter, 4-hour duration, 97-98% efficiency"
+      },
+      "bms": {
+        "cost_per_kwh": 49,
+        "installation_per_kwh": 5,
+        "source": "NREL ATB 2024, BMS system allocation",
+        "notes": "Battery Management System, thermal management included"
+      }
+    },
+    "generators": {
+      "diesel_standby": {
+        "cost_per_kw": 380,
+        "installation_per_kw": 95,
+        "source": "Generator manufacturer pricing Q4 2024",
+        "notes": "Diesel genset, standby rated, 30-35% efficiency, Tier 4"
+      },
+      "diesel_prime": {
+        "cost_per_kw": 450,
+        "installation_per_kw": 110,
+        "source": "Generator manufacturer pricing Q4 2024",
+        "notes": "Diesel genset, prime rated, 35-40% efficiency"
+      },
+      "natural_gas_standby": {
+        "cost_per_kw": 580,
+        "installation_per_kw": 145,
+        "source": "Generator manufacturer pricing Q4 2024",
+        "notes": "Natural gas genset, standby rated, 32-37% efficiency"
+      },
+      "natural_gas_prime": {
+        "cost_per_kw": 680,
+        "installation_per_kw": 170,
+        "source": "Generator manufacturer pricing Q4 2024",
+        "notes": "Natural gas genset, prime rated, 38-42% efficiency"
+      }
+    },
+    "bos_components": {
+      "transformer_padmount": {
+        "cost_per_kva": 28,
+        "installation_per_kva": 9,
+        "source": "RS Means 2024, Eaton/ABB pricing",
+        "notes": "Pad-mount transformer, oil-filled, 30yr life"
+      },
+      "switchgear_480v": {
+        "cost_per_unit": 14500,
+        "installation_per_unit": 2800,
+        "source": "Schneider/Eaton 2024 distributor pricing",
+        "notes": "Main switchgear, 480V, 2000-4000A, circuit breaker panel"
+      },
+      "ats_automatic_transfer": {
+        "cost_per_amp": 285,
+        "installation_per_amp": 45,
+        "source": "ASCO, Cummins ATS pricing 2024",
+        "notes": "Automatic transfer switch, 25yr life, <100ms transfer"
+      },
+      "protection_relay": {
+        "cost_per_unit": 2400,
+        "installation_per_unit": 480,
+        "source": "SEL, Schweitzer pricing 2024",
+        "notes": "Digital multifunction relay, SEL-351 equivalent"
+      },
+      "metering_revenue": {
+        "cost_per_unit": 2850,
+        "installation_per_unit": 475,
+        "source": "Utility-grade metering equipment 2024",
+        "notes": "Revenue-grade metering, ANSI C12.20 compliant"
+      },
+      "cable_600v": {
+        "cost_per_ft": 4.5,
+        "installation_per_ft": 2.75,
+        "source": "Southwire, General Cable 2024",
+        "notes": "THWN-2, 600V rated, copper conductor"
+      },
+      "conduit_pvc": {
+        "cost_per_ft": 1.85,
+        "installation_per_ft": 1.9,
+        "source": "Carlon, Allied pricing 2024",
+        "notes": "PVC conduit, Schedule 40"
+      },
+      "racking_ground": {
+        "cost_per_w": 0.09,
+        "installation_per_w": 0.045,
+        "source": "GameChange, Terrasmart 2024",
+        "notes": "Ground-mount racking, fixed tilt, aluminum"
+      },
+      "racking_roof": {
+        "cost_per_w": 0.075,
+        "installation_per_w": 0.038,
+        "source": "IronRidge, Unirac 2024",
+        "notes": "Rooftop racking, ballasted or attached"
+      }
+    }
+  },
+  "notes": "All costs reflect Q4 2024 / Q1 2025 market conditions. Sources include NREL Annual Technology Baseline 2024, BloombergNEF Battery Survey 2024, Wood Mackenzie Power & Renewables, manufacturer pricing guides, and RS Means 2024."
+}

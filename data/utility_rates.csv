@@ -1,0 +1,14 @@
+Rate_Type,Season,Period,Start_Hour,End_Hour,Cost,Unit,Days_Applicable
+Energy,Summer,Peak,14,19,0.15,$/kWh,Weekdays
+Energy,Summer,Off-Peak,0,14,0.08,$/kWh,Weekdays
+Energy,Summer,Off-Peak,19,24,0.08,$/kWh,Weekdays
+Energy,Summer,Off-Peak,0,24,0.07,$/kWh,Weekends
+Energy,Winter,Peak,6,10,0.12,$/kWh,Weekdays
+Energy,Winter,Off-Peak,0,6,0.07,$/kWh,Weekdays
+Energy,Winter,Off-Peak,10,24,0.07,$/kWh,Weekdays
+Energy,Winter,Off-Peak,0,24,0.06,$/kWh,Weekends
+Demand,Summer,Peak,14,19,18.50,$/kW,Weekdays
+Demand,Summer,Off-Peak,0,24,8.00,$/kW,All
+Demand,Winter,Peak,6,10,15.00,$/kW,Weekdays
+Demand,Winter,Off-Peak,0,24,6.50,$/kW,All
+Fixed,All,All,0,24,75.00,$/month,All

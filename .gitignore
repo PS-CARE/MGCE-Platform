@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+frontend/dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Collected data (keep in repo for deployment)
+# collected_data/

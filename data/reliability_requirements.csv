@@ -1,4 +1,0 @@
-Load_Type,Priority,Backup_Hours,Coverage_Percent,Islanding_Required,Description
-Critical,1,24,100,Yes,Life safety and emergency systems
-Essential,2,8,100,Yes,Business-critical operations
-Non-Essential,3,0,0,No,Deferrable loads

@@ -1,6 +1,0 @@
-Timestamp,Load_kW,Power_Factor,Load_Type
-2024-01-01 00:00,120.5,0.92,Critical
-2024-01-01 00:15,118.2,0.91,Critical
-2024-01-01 00:30,115.8,0.90,Essential
-2024-01-01 00:45,112.4,0.91,Non-Essential
-2024-01-01 01:00,110.0,0.92,Critical

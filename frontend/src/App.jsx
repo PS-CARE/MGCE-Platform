@@ -39,6 +39,8 @@ function App() {
   const [results, setResults] = useState(null);
   const [showCalculations, setShowCalculations] = useState(false);
   
+  const [validationErrors, setValidationErrors] = useState({});
+
   const [formData, setFormData] = useState({
     facility_name: '',
     facility_type: 'commercial',
@@ -73,18 +75,28 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    // Validate required fields
+    const errors = {};
+    if (!formData.critical_load_percent || formData.critical_load_percent <= 0) {
+      errors.critical_load_percent = 'Critical Load % is required';
+    }
+    if (!formData.essential_load_percent || formData.essential_load_percent <= 0) {
+      errors.essential_load_percent = 'Essential Load % is required';
+    }
+    
+    setValidationErrors(errors);
+    if (Object.keys(errors).length > 0) {
+      return;
+    }
+    
     setLoading(true);
     setError(null);
     
-    // Validate and prepare data - convert empty strings to defaults
+    // Prepare data
     const submitData = {
       ...formData,
       facility_name: formData.facility_name || 'Unnamed Facility',
-      peak_demand_kw: formData.peak_demand_kw || 500,
-      annual_consumption_kwh: formData.annual_consumption_kwh || 2000000,
-      critical_load_percent: formData.critical_load_percent || 30,
-      essential_load_percent: formData.essential_load_percent || 40,
-      backup_duration_hours: formData.backup_duration_hours || 24,
     };
     
     try {
@@ -231,7 +243,7 @@ function App() {
                 </div>
                 
                 <div>
-                  <label className="label">Peak Demand (kW)</label>
+                  <label className="label">Peak Demand (kW) <span className="text-red-500">*</span></label>
                   <input
                     type="number"
                     name="peak_demand_kw"
@@ -240,12 +252,16 @@ function App() {
                     placeholder="e.g., 500"
                     min="10"
                     max="100000"
-                    className="input-field"
+                    className={`input-field ${validationErrors.peak_demand_kw ? 'border-red-500' : ''}`}
+                    required
                   />
+                  {validationErrors.peak_demand_kw && (
+                    <p className="text-red-500 text-xs mt-1">{validationErrors.peak_demand_kw}</p>
+                  )}
                 </div>
                 
                 <div>
-                  <label className="label">Annual Consumption (kWh)</label>
+                  <label className="label">Annual Consumption (kWh) <span className="text-red-500">*</span></label>
                   <input
                     type="number"
                     name="annual_consumption_kwh"
@@ -253,12 +269,16 @@ function App() {
                     onChange={handleInputChange}
                     placeholder="e.g., 2000000"
                     min="1000"
-                    className="input-field"
+                    className={`input-field ${validationErrors.annual_consumption_kwh ? 'border-red-500' : ''}`}
+                    required
                   />
+                  {validationErrors.annual_consumption_kwh && (
+                    <p className="text-red-500 text-xs mt-1">{validationErrors.annual_consumption_kwh}</p>
+                  )}
                 </div>
                 
                 <div>
-                  <label className="label">Required Backup Duration (hours)</label>
+                  <label className="label">Required Backup Duration (hours) <span className="text-red-500">*</span></label>
                   <input
                     type="number"
                     name="backup_duration_hours"
@@ -267,15 +287,34 @@ function App() {
                     placeholder="e.g., 24"
                     min="1"
                     max="168"
-                    className="input-field"
+                    className={`input-field ${validationErrors.backup_duration_hours ? 'border-red-500' : ''}`}
+                    required
                   />
+                  {validationErrors.backup_duration_hours && (
+                    <p className="text-red-500 text-xs mt-1">{validationErrors.backup_duration_hours}</p>
+                  )}
                 </div>
               </div>
               
               <div className="pt-4">
                 <button
                   type="button"
-                  onClick={() => setStep(2)}
+                  onClick={() => {
+                    const errors = {};
+                    if (!formData.peak_demand_kw || formData.peak_demand_kw <= 0) {
+                      errors.peak_demand_kw = 'Peak Demand is required';
+                    }
+                    if (!formData.annual_consumption_kwh || formData.annual_consumption_kwh <= 0) {
+                      errors.annual_consumption_kwh = 'Annual Consumption is required';
+                    }
+                    if (!formData.backup_duration_hours || formData.backup_duration_hours <= 0) {
+                      errors.backup_duration_hours = 'Backup Duration is required';
+                    }
+                    setValidationErrors(errors);
+                    if (Object.keys(errors).length === 0) {
+                      setStep(2);
+                    }
+                  }}
                   className="btn-primary w-full"
                 >
                   Continue to System Options
@@ -299,32 +338,42 @@ function App() {
                 <h3 className="font-medium text-gray-900 mb-4">Load Priority Breakdown</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="label">Critical Load (%)</label>
+                    <label className="label">Critical Load (%) <span className="text-red-500">*</span></label>
                     <input
                       type="number"
                       name="critical_load_percent"
                       value={formData.critical_load_percent}
                       onChange={handleInputChange}
                       placeholder="e.g., 30"
-                      min="0"
+                      min="1"
                       max="100"
-                      className="input-field"
+                      className={`input-field ${validationErrors.critical_load_percent ? 'border-red-500' : ''}`}
+                      required
                     />
-                    <p className="text-xs text-gray-500 mt-1">Life safety, emergency systems</p>
+                    {validationErrors.critical_load_percent ? (
+                      <p className="text-red-500 text-xs mt-1">{validationErrors.critical_load_percent}</p>
+                    ) : (
+                      <p className="text-xs text-gray-500 mt-1">Life safety, emergency systems</p>
+                    )}
                   </div>
                   <div>
-                    <label className="label">Essential Load (%)</label>
+                    <label className="label">Essential Load (%) <span className="text-red-500">*</span></label>
                     <input
                       type="number"
                       name="essential_load_percent"
                       value={formData.essential_load_percent}
                       onChange={handleInputChange}
                       placeholder="e.g., 40"
-                      min="0"
+                      min="1"
                       max="100"
-                      className="input-field"
+                      className={`input-field ${validationErrors.essential_load_percent ? 'border-red-500' : ''}`}
+                      required
                     />
-                    <p className="text-xs text-gray-500 mt-1">HVAC, refrigeration, key operations</p>
+                    {validationErrors.essential_load_percent ? (
+                      <p className="text-red-500 text-xs mt-1">{validationErrors.essential_load_percent}</p>
+                    ) : (
+                      <p className="text-xs text-gray-500 mt-1">HVAC, refrigeration, key operations</p>
+                    )}
                   </div>
                 </div>
               </div>

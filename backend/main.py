@@ -179,11 +179,17 @@ class SystemSizer:
         backup_load_kw = load_analysis['backup_load_kw']
         critical_load_kw = load_analysis['critical_load_kw']
         
-        # Solar PV sizing
+        # Solar PV sizing (energy-based approach)
         if facility.include_solar:
-            # Size PV to cover average demand with 1.3x factor for battery charging
-            solar_pv_kw = round(load_analysis['average_demand_kw'] * 1.3 / self.solar_capacity_factor, 1)
-            # Cap at reasonable size relative to peak demand
+            # Size PV to offset 50% of annual consumption
+            # Formula: P_solar = (Annual Consumption × Target Fraction) / (Capacity Factor × 8760)
+            target_renewable_fraction = 0.50  # 50% target
+            hours_per_year = 8760
+            solar_pv_kw = round(
+                (facility.annual_consumption_kwh * target_renewable_fraction) / 
+                (self.solar_capacity_factor * hours_per_year), 1
+            )
+            # Cap at reasonable size relative to peak demand (max 150%)
             solar_pv_kw = min(solar_pv_kw, facility.peak_demand_kw * 1.5)
         else:
             solar_pv_kw = 0

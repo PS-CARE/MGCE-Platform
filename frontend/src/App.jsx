@@ -773,19 +773,19 @@ function App() {
                       <div>
                         <p className="font-medium text-blue-900">Battery Storage Sizing:</p>
                         <p className="text-blue-800 font-mono text-xs mt-1">
-                          Battery kWh = Critical Load × Backup Duration
+                          Battery kWh = (Critical + Essential Load) × Backup Duration
                         </p>
                         <p className="text-blue-700 mt-1">
-                          = ({formData.peak_demand_kw || 500} kW × {formData.critical_load_percent || 30}%) × {formData.backup_duration_hours || 24} hrs = <strong>{formatNumber(results.design.battery_kwh)} kWh</strong>
+                          = ({formData.peak_demand_kw || 500} kW × {(formData.critical_load_percent || 30) + (formData.essential_load_percent || 40)}%) × {formData.backup_duration_hours || 4} hrs = <strong>{formatNumber(results.design.battery_kwh)} kWh</strong>
                         </p>
                       </div>
                       <div>
                         <p className="font-medium text-blue-900">Generator Sizing:</p>
                         <p className="text-blue-800 font-mono text-xs mt-1">
-                          Generator kW = (Critical + Essential Load) × 1.25 (safety margin)
+                          Generator kW = (Critical + Essential Load) × 1.1 (safety margin)
                         </p>
                         <p className="text-blue-700 mt-1">
-                          = ({formData.peak_demand_kw || 500} kW × {(formData.critical_load_percent || 30) + (formData.essential_load_percent || 40)}%) × 1.25 = <strong>{formatNumber(results.design.generator_kw)} kW</strong>
+                          = ({formData.peak_demand_kw || 500} kW × {(formData.critical_load_percent || 30) + (formData.essential_load_percent || 40)}%) × 1.1 = <strong>{formatNumber(results.design.generator_kw)} kW</strong>
                         </p>
                       </div>
                     </div>
@@ -801,16 +801,16 @@ function App() {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                           <p className="font-medium text-green-900">Solar PV Cost:</p>
-                          <p className="text-green-800 font-mono text-xs mt-1">$1,551/kW (NREL ATB 2024 Moderate)</p>
+                          <p className="text-green-800 font-mono text-xs mt-1">$1,795/kW (NREL ATB 2024 Moderate)</p>
                           <p className="text-green-700 mt-1">
-                            {formatNumber(results.design.solar_pv_kw)} kW × $1,551 = <strong>{formatCurrency(results.costs.solar_pv_cost)}</strong>
+                            {formatNumber(results.design.solar_pv_kw)} kW × $1,795 = <strong>{formatCurrency(results.costs.solar_pv_cost)}</strong>
                           </p>
                         </div>
                         <div>
                           <p className="font-medium text-green-900">Battery Cost:</p>
-                          <p className="text-green-800 font-mono text-xs mt-1">$485/kWh (NREL ATB 2024, 4-hr system)</p>
+                          <p className="text-green-800 font-mono text-xs mt-1">$510/kWh (NREL ATB 2024, 4-hr all-inclusive)</p>
                           <p className="text-green-700 mt-1">
-                            {formatNumber(results.design.battery_kwh)} kWh × $485 = <strong>{formatCurrency(results.costs.battery_cost)}</strong>
+                            {formatNumber(results.design.battery_kwh)} kWh × $510 = <strong>{formatCurrency(results.costs.battery_cost)}</strong>
                           </p>
                         </div>
                         <div>
@@ -822,9 +822,9 @@ function App() {
                         </div>
                         <div>
                           <p className="font-medium text-green-900">BOS & Installation:</p>
-                          <p className="text-green-800 font-mono text-xs mt-1">BOS: 15% | Installation: 10%</p>
+                          <p className="text-green-800 font-mono text-xs mt-1">BOS: 15% | Install: 10% (excl. battery)</p>
                           <p className="text-green-700 mt-1">
-                            Equipment × 25% = <strong>{formatCurrency(results.costs.bos_cost + results.costs.installation_cost)}</strong>
+                            (Solar + Gen + Inv) × 25% = <strong>{formatCurrency(results.costs.bos_cost + results.costs.installation_cost)}</strong>
                           </p>
                         </div>
                       </div>

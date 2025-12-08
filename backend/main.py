@@ -196,30 +196,30 @@ class SystemSizer:
         
         # Battery sizing
         if facility.include_battery:
-            # Size battery for 4 hours of backup load (typical for commercial)
-            battery_hours = min(4, facility.backup_duration_hours)
-            battery_kwh = round(backup_load_kw * battery_hours / self.battery_round_trip_efficiency, 1)
-            battery_kw = round(backup_load_kw * 1.1, 1)  # 10% margin
+            # E_battery = P_peak × (Critical% + Essential%) × Backup Duration
+            battery_kwh = round(backup_load_kw * facility.backup_duration_hours, 1)
+            battery_kw = round(backup_load_kw * 1.1, 1)  # 10% margin for power rating
         else:
             battery_kw = 0
             battery_kwh = 0
         
         # Generator sizing (for extended outages)
         if facility.include_generator:
-            # Size generator to cover critical + essential loads
-            generator_kw = round(backup_load_kw * 1.2, 1)  # 20% margin
+            # P_generator = P_peak × (Critical% + Essential%) × 1.1 (10% safety margin)
+            generator_kw = round(backup_load_kw * 1.1, 1)
         else:
             generator_kw = 0
         
-        # Inverter sizing
-        inverter_kw = round(max(solar_pv_kw, battery_kw, backup_load_kw) * 1.1, 1)
+        # Inverter sizing: P_inverter = max(P_solar, P_battery) × 1.1
+        inverter_kw = round(max(solar_pv_kw, battery_kw) * 1.1, 1)
         
         # Total generation capacity
         total_generation_kw = solar_pv_kw + generator_kw
         
-        # Renewable fraction
-        if total_generation_kw > 0:
-            renewable_fraction = round(solar_pv_kw / total_generation_kw, 3)
+        # Renewable fraction: (P_solar × CF × 8760) / Annual Consumption × 100%
+        solar_annual_production = solar_pv_kw * self.solar_capacity_factor * 8760
+        if facility.annual_consumption_kwh > 0:
+            renewable_fraction = round(solar_annual_production / facility.annual_consumption_kwh, 3)
         else:
             renewable_fraction = 0
         
@@ -261,15 +261,15 @@ class CostEstimator:
             print(f"Error loading cost data: {e}")
             self.costs = {}
         
-        # Default costs from NREL ATB 2024 if not loaded
+        # Default costs from NREL ATB 2024 (Moderate Scenario) if not loaded
         self.default_costs = {
-            'solar_pv_per_kw': 1551,  # $/kW AC (NREL ATB 2024)
-            'battery_per_kwh': 485,   # $/kWh (4-hour system)
-            'battery_per_kw': 1938,   # $/kW
+            'solar_pv_per_kw': 1795,  # $/kW AC (NREL ATB 2024 Commercial PV Moderate)
+            'battery_per_kwh': 510,   # $/kWh (4-hour system, all-inclusive)
+            'battery_per_kw': 2040,   # $/kW (4-hour system)
             'generator_per_kw': 800,  # $/kW (diesel)
             'inverter_per_kw': 150,   # $/kW
-            'bos_percent': 0.15,      # 15% of equipment cost
-            'installation_percent': 0.20,  # 20% of equipment cost
+            'bos_percent': 0.15,      # 15% of equipment cost (solar + generator only)
+            'installation_percent': 0.10,  # 10% of equipment cost
             'om_percent': 0.015,      # 1.5% of capital annually
         }
     
@@ -278,19 +278,19 @@ class CostEstimator:
         
         # Component costs
         solar_pv_cost = design.solar_pv_kw * self.default_costs['solar_pv_per_kw']
-        battery_cost = design.battery_kwh * self.default_costs['battery_per_kwh']
+        battery_cost = design.battery_kwh * self.default_costs['battery_per_kwh']  # All-inclusive from NREL ATB
         generator_cost = design.generator_kw * self.default_costs['generator_per_kw']
         inverter_cost = design.inverter_kw * self.default_costs['inverter_per_kw']
         
-        # Equipment subtotal
-        equipment_cost = solar_pv_cost + battery_cost + generator_cost + inverter_cost
+        # Equipment subtotal (battery excluded from BOS/installation - already all-inclusive)
+        equipment_for_bos = solar_pv_cost + generator_cost + inverter_cost
         
-        # BOS and installation
-        bos_cost = equipment_cost * self.default_costs['bos_percent']
-        installation_cost = equipment_cost * self.default_costs['installation_percent']
+        # BOS and installation (applied to solar, generator, inverter only)
+        bos_cost = equipment_for_bos * self.default_costs['bos_percent']
+        installation_cost = equipment_for_bos * self.default_costs['installation_percent']
         
         # Total capital cost
-        total_capital_cost = equipment_cost + bos_cost + installation_cost
+        total_capital_cost = solar_pv_cost + battery_cost + generator_cost + inverter_cost + bos_cost + installation_cost
         
         # Annual O&M
         annual_om_cost = total_capital_cost * self.default_costs['om_percent']

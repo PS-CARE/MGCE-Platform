@@ -764,10 +764,10 @@ function App() {
                       <div>
                         <p className="font-medium text-blue-900">Solar PV Sizing:</p>
                         <p className="text-blue-800 font-mono text-xs mt-1">
-                          Solar kW = Peak Demand × 1.2 (120% coverage factor)
+                          Solar kW = (Annual Consumption × 50%) ÷ (Capacity Factor × 8760)
                         </p>
                         <p className="text-blue-700 mt-1">
-                          = {formData.peak_demand_kw || 500} kW × 1.2 = <strong>{formatNumber(results.design.solar_pv_kw)} kW</strong>
+                          = ({formatNumber(formData.annual_consumption_kwh || 2000000)} kWh × 0.50) ÷ (0.269 × 8760) = <strong>{formatNumber(results.design.solar_pv_kw)} kW</strong>
                         </p>
                       </div>
                       <div>
